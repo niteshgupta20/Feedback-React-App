@@ -22,13 +22,13 @@ function App() {
                   <FeedbackForm />
                   <FeedbackStats />
                   <FeedbackList />
+                  <AboutIconLink />
                 </>
               }
             />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
         </div>
-        <AboutIconLink />
       </Router>
     </FeedbackProvider>
   );
